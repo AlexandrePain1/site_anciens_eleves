@@ -103,8 +103,8 @@ h2 {
 }
 
 @keyframes arriver2 {
-  0% { color: rgb(157, 156, 157); }
-  100% { color: white; }
+  0% { color: white; }
+  100% { color: rgb(157, 156, 157); }
 }
 
 td > img:hover {
