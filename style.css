@@ -1,0 +1,117 @@
+html {
+    background-color: rgb(157, 156, 157);
+}
+
+body {
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    background-color: rgb(0, 14, 50);
+    padding: 10px 20px;
+}
+.footer{
+    color: white;
+    text-align: right;
+    display: flex;
+    justify-content: right;
+    padding: 5px;
+}
+
+.imgtext {
+    position:absolute;
+    top:300px; 
+    margin-left: 38%;
+    z-index:2;
+    font-size:200%
+}
+
+ul {
+    top: 0;
+    position: sticky;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 14, 50);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(45, 170, 225);
+}
+
+.logo {
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.rmenu {
+    float: right;
+}
+
+td {
+    padding: 10px;
+}
+
+hr {
+    margin: 75px;
+}
+
+h1{
+    color: white;
+    animation-duration: 1.5s;
+    animation-name: arriver2;
+}
+
+h2 {
+    color:  rgb(0, 14, 50);
+}
+
+
+.texte {
+    color: rgb(0, 14, 50);
+    margin: 15px;
+    animation-duration: 1.5s;
+    animation-name: arriver;
+}
+
+.texte2 {
+    color: white;
+    margin: 15px;
+    animation-duration: 1.5s;
+    animation-name: arriver2;
+}
+
+@keyframes arriver {
+  0% { color: black; }
+  100% { color: rgb(0, 14, 50); }
+}
+
+@keyframes arriver2 {
+  0% { color: rgb(157, 156, 157); }
+  100% { color: white; }
+}
+
+td > img:hover {
+    transform:scale(1.10);
+}
+
+td > img {
+   transition: all 1s ease;
+}
+
