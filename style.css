@@ -1,5 +1,6 @@
 html {
     background-color: white;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -188,7 +189,6 @@ td > img {
     bottom: 5px;
     margin: 10px;
     position: sticky;
-    scroll-behavior: smooth;
     animation: bounce 1s infinite;
   }
   
